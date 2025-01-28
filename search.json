@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "projects/project-a/index.html",
+    "href": "projects/project-a/index.html",
+    "title": "matplotlib demo",
+    "section": "",
+    "text": "For a demonstration of a line plot on a polar axis, see Figure 1.\n\n\nCode\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 2 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1: A line plot on a polar axis"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Enter your biography blurb here."
+  },
+  {
+    "objectID": "about.html#who-am-i",
+    "href": "about.html#who-am-i",
+    "title": "About",
+    "section": "Who am I?",
+    "text": "Who am I?\nI’m a quant finance professional"
+  },
+  {
+    "objectID": "about.html#what-is-my-mission",
+    "href": "about.html#what-is-my-mission",
+    "title": "About",
+    "section": "What is my mission?",
+    "text": "What is my mission?\nTo learn BA\nProject A"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
